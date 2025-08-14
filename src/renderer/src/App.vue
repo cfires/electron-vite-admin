@@ -14,6 +14,8 @@ const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
     <span class="ts">TypeScript</span>
   </div>
   <p class="tip">Please try pressing <code>F12</code> to open the devTool</p>
+  <!-- 添加 Element Plus 按钮 -->
+  <el-button type="primary" @click="ipcHandle"> 点击发送 IPC 消息 </el-button>
   <div class="actions">
     <div class="action">
       <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">Documentation</a>

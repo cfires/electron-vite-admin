@@ -1,0 +1,36 @@
+{
+  "login": {
+    "title": "Enterprise Admin System",
+    "username": "Username",
+    "password": "Password",
+    "loginBtn": "Login",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot Password?",
+    "copyright": "© 2023 Enterprise Admin System. All rights reserved.",
+    "usernameRequired": "Please input username",
+    "passwordRequired": "Please input password",
+    "passwordLength": "Password must be at least 6 characters",
+    "invalidCredentials": "Invalid username or password",
+    "serverError": "Server error, please try again later",
+    "loginFailed": "Login failed, please try again",
+    "demoAccounts": "Demo Accounts:"
+  },
+  "tabs": {
+    "refresh": "Refresh",
+    "maximize": "Maximize",
+    "closeCurrent": "Close current",
+    "closeLeft": "Close Left",
+    "closeRight": "Close Right",
+    "closeOther": "Close other",
+    "closeAll": "Close All"
+  },
+  "header": {
+    "profile": "Profile",
+    "switchToZh": "Switch to Chinese",
+    "switchToEn": "Switch to English",
+    "fullScreen": "Full Screen",
+    "exitFullScreen": "Exit Full Screen",
+    "changePassword": "Change Password",
+    "logout": "Logout"
+  }
+}
