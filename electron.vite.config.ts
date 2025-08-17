@@ -33,6 +33,12 @@ export default defineConfig({
         // 自动导入的组件类型声明文件存放位置
         dts: resolve('src/renderer/src/components.d.ts')
       })
-    ]
+    ],
+    // 添加 vue-i18n 配置
+    define: {
+      __VUE_I18N_FULL_INSTALL__: false,
+      __VUE_I18N_LEGACY_API__: false,
+      __VUE_I18N_PROD_DEVTOOLS__: false
+    }
   }
 })

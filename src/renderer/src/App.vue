@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import Versions from './components/Versions.vue'
+import { useI18n } from 'vue-i18n';
 
 const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
+const { t } = useI18n();
 </script>
 
 <template>
@@ -13,6 +15,7 @@ const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
     and
     <span class="ts">TypeScript</span>
   </div>
+  <h1>{{ t('login.title') }}</h1>
   <p class="tip">Please try pressing <code>F12</code> to open the devTool</p>
   <!-- 添加 Element Plus 按钮 -->
   <el-button type="primary" @click="ipcHandle"> 点击发送 IPC 消息 </el-button>
